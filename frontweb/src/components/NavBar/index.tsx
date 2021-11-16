@@ -24,7 +24,7 @@ const NavBar = () => {
         <div className="collapse navbar-collapse" id="dscarros-navbar">
           <ul className="navbar-nav offset-md-2 main-menu">
             <li>
-              <a href="link">Home</a>
+              <a href="link ">Home</a>
             </li>
             <li>
               <a href="link">Catálogo</a>
