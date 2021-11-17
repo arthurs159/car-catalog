@@ -1,9 +1,10 @@
 import 'assets/styles/custom.scss';
 import './App.css';
 import Home from 'pages/Home';
+import Catalogo from 'pages/Catalogo';
 
 function App() {
-  return <Home />;
+  return <Catalogo />;
 }
 
 export default App;

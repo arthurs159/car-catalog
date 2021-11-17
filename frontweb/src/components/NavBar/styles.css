@@ -20,24 +20,32 @@
 
 .main-menu a.active {
   font-weight: bold;
- }
- 
-
-/*@media (min-width: 576px) {
-  .main-nav {
-    padding-left: 76px;
-  }
 }
 
 @media (min-width: 768px) {
-  .main-menu {
-    width: 172px;
-    justify-content: space-between;
+  .main-nav {
+    padding-left: 88px;
   }
 
-  #dscarros-navbar {
+  .title-container {
+    padding: 0;
+  }
 
-
+  .text-container1 {
+    width: 425px;
+    justify-content: flex-end;
+    padding-right: 65px;
   }
 }
-*/
+
+@media (min-width: 992px) {
+  .text-container1 {
+    padding-right: 203px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .text-container1 {
+    padding-right: 491px;
+  }
+}
