@@ -14,3 +14,11 @@
 .btn-container h6 {
   font-size: 14px;
 }
+
+@media (min-width: 576px) {
+  .btn-container button {
+    width: 174px;
+    height: 40px;
+  }
+}
+

@@ -1,0 +1,36 @@
+/*.container {
+  padding: 0 10px 20px 10px;
+ */
+
+.box-control {
+  width: 300px;
+  height: 347px;
+  background-color: #EDEDED;
+  border-radius: 10px;
+}
+
+.img-container {
+  padding: 14px 37px 8px 37px;
+}
+
+.text-container {
+  text-align: center;
+  color: black;
+}
+
+.text-container h1{
+  padding: 0 15px 14px 15px;
+  font-size: 20px;
+}
+
+.text-container h6{
+  padding: 0 14px 0px 14px;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: italic;
+}
+
+
+@media (min-width: 576px){
+
+}

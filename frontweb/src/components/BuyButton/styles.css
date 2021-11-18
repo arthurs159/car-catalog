@@ -1,0 +1,15 @@
+.container-all {
+       display: flex;
+       justify-content: center;
+       padding: 38px 18px 15px 18px;
+       
+}
+
+.button-container button{
+       width: 220px;
+       height: 40px;
+}
+
+.button-container h4{
+       font-size: 14px;
+}
