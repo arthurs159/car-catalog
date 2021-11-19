@@ -1,36 +1,33 @@
-/*.container {
-  padding: 0 10px 20px 10px;
- */
-
-.box-control {
-  width: 300px;
-  height: 347px;
-  background-color: #EDEDED;
+.base-card {
+  border: 1px solid red;
+  margin-bottom: 20px;
+  background: #ededed;
   border-radius: 10px;
 }
 
-.img-container {
-  padding: 14px 37px 8px 37px;
-}
-
-.text-container {
+.card-top-container {
+  padding-top: 14px;
   text-align: center;
+}
+
+.card-top-container img {
+  width: 220px;
+  height: 165px;
+  padding: 0 18px 0 18px;
+}
+
+.card-bottom-container h1 {
+  font-size: 18px;
+  font-weight: 700;
   color: black;
+  text-align: center;
 }
 
-.text-container h1{
-  padding: 0 15px 14px 15px;
-  font-size: 20px;
-}
-
-.text-container h6{
-  padding: 0 14px 0px 14px;
+.card-bottom-container p {
   font-size: 14px;
-  font-weight: 400;
   font-style: italic;
-}
-
-
-@media (min-width: 576px){
-
+  color: #585858;
+  text-align: left;
+  padding: 18px 14px 38px 22px;
+  margin: 0;
 }

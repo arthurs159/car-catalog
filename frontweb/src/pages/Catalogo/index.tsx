@@ -9,9 +9,27 @@ const Catalogo = () => {
       <NavBar />
       <SearchField />
       <div className="container my-4">
-          <Products />
-          <Products />
+        <div className="row">
+          <div className="col-sm-6 col-lg-4 col-xl-4">
+            <Products />
           </div>
+          <div className="col-sm-6 col-lg-4 col-xl-4">
+            <Products />
+          </div>
+          <div className="col-sm-6 col-lg-4 col-xl-4">
+            <Products />
+          </div>
+          <div className="col-sm-6 col-lg-4 col-xl-4">
+            <Products />
+          </div>
+          <div className="col-sm-6 col-lg-4 col-xl-4">
+            <Products />
+          </div>
+          <div className="col-sm-6 col-lg-4 col-xl-4">
+            <Products />
+          </div>
+        </div>
+      </div>
     </>
   );
 };
