@@ -1,5 +1,4 @@
 .base-card {
-  border: 1px solid red;
   margin-bottom: 20px;
   background: #ededed;
   border-radius: 10px;
@@ -30,4 +29,34 @@
   text-align: left;
   padding: 18px 14px 38px 22px;
   margin: 0;
+}
+
+@media (min-width: 576px) {
+  .base-card {
+    width: 258px;
+  }
+}
+
+@media (min-width: 768px) {
+  .base-card {
+    width: 349px;
+    height: 347px;
+  }
+
+  .card-bottom-container p {
+    padding: 18px 14px 30px 22px;
+  }
+}
+
+@media (min-width: 992px) {
+  .base-card {
+    width: 296px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .base-card {
+    width: 306px;
+    
+  }
 }

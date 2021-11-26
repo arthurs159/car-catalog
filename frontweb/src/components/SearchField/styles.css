@@ -1,3 +1,4 @@
+
 .box-container {
   padding: 20px 10px 0 10px;
   display: flex;
@@ -35,8 +36,12 @@
 
 @media (min-width: 768px) {
   .search-container {
-    width: 768px;
+    width: 728px;
     height: 123px;
+  }
+
+  .form {
+    width: 516px;
   }
 }
 
@@ -44,6 +49,10 @@
   .search-container {
     width: 952px;
     height: 123px;
+  }
+
+  .form {
+    width: 584px;
   }
 }
 
