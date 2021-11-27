@@ -44,14 +44,20 @@
 }
 
 @media (min-width: 1200px) {
+  .main-div1 {
+    display: flex;
+    justify-content: center;
+  }
+
   .main-container {
-    width: 100%;
-    padding: 30px 150px;
+    width: 979px;
+    height: 356px;
   }
 
   .home-card {
     display: flex;
     flex-direction: row-reverse;
+    
   }
 
   .image-container {
@@ -63,5 +69,7 @@
     justify-content: center;
     flex-direction: column;
     text-align: left;
+    padding-left: 85px;
   }
+
 }

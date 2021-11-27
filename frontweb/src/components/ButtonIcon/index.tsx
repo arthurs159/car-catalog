@@ -2,7 +2,7 @@ import './styles.css';
 
 const ButtonIcon = () => {
   return (
-    <div className="button-container">
+    <div className="button-container3">
       <div className="button">
         <button type="button" className="btn btn-secondary btn-center">
           <h4>VER CATÁLOGO</h4>
